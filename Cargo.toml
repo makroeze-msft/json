@@ -19,7 +19,7 @@ appveyor = { repository = "serde-rs/json" }
 serde = "1.0"
 linked-hash-map = { version = "0.5", optional = true }
 itoa = "0.4"
-dtoa = "0.4"
+dtoa = { path = "../dtoa" }
 
 [dev-dependencies]
 compiletest_rs = "0.3"
